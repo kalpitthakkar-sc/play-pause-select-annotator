@@ -32,7 +32,7 @@ def select_key_frames_manual(vid_path, max_frames, store_dir):
       store_dir (str): Storage directory for chosen key frames
 
     Returns:
-      None
+      status (int): Returns status of the annotator
   """
   if not os.path.exists(store_dir):
     os.makedirs(store_dir)
